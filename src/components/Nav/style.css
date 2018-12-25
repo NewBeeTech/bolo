@@ -1,0 +1,90 @@
+.tabs {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 500px;
+	font-weight: 300;
+  height: 150px;
+}
+
+/* Nav */
+.tabs nav {
+  margin-top: 40px;
+	text-align: center;
+}
+
+
+.tabs nav ul {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px;
+	list-style: none;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.tabs nav ul li:first-child{
+	color: #454a56;
+}
+.tabs nav ul li:not(:first-child){
+	cursor: pointer;
+}
+
+.tabs nav ul li {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 0;
+	text-align: center;
+	flex: 1;
+  list-style: none;
+  padding: 0 1vw;
+  float: left;
+  height: 2em;
+  font-size: 16px;
+  color: #adb5c0;
+  line-height: 1em;
+  text-align: center;
+}
+
+.tabs-style-linemove nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	transition: transform 0.3s;
+  content: '';
+  width: 40px;
+  height: 5px;
+  background: #454a56;
+  border-radius: 3px;
+}
+
+/* Move the line */
+.tabs-style-linemove nav li:nth-child(2).tab-current ~ li:last-child::before {
+  width: 50px;
+	transform: translate3d(-329px,0,0);
+}
+
+.tabs-style-linemove nav li:nth-child(3).tab-current ~ li:last-child::before {
+  width: 50px;
+	transform: translate3d(-246px,0,0);
+}
+
+.tabs-style-linemove nav li:nth-child(4).tab-current ~ li:last-child::before {
+  width: 70px;
+	transform: translate3d(-152px,0,0);
+}
+
+.tabs-style-linemove nav li:nth-child(5).tab-current ~ li:last-child::before {
+  width: 50px;
+	transform: translate3d(-79px,0,0);
+}
+
+
+.tabs-style-linemove nav li.tab-current {
+  font-weight: 600;
+  top: 2px;
+	color: #454a56;
+	transform: translate3d(0,0,0);
+}

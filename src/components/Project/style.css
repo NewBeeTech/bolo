@@ -1,0 +1,99 @@
+.Project {
+  padding: 0 5%;
+  display: flex;
+  border-top: 1px solid #c8d1d9;
+  animation-duration: 0.5s;
+}
+/* 左边 */
+.Project-left {
+  width: 8%;
+}
+.Project-left-time {
+  transform: rotate(-90deg);
+  color: #545d70;
+  font-size: 1rem;
+}
+.Project-left-time-momth {
+  font-weight: 600;
+  margin-right: 5px;
+}
+/* 中间 */
+.Project-center {
+  display: flex;
+  width: 57%;
+}
+.Project-center img {
+  width: 100%;
+  height: 100%;
+}
+/* 右边 */
+.Project-right {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  margin-left: 3%;
+}
+.Project-right-index {
+  flex-grow: 1;
+  width: 100%;
+  font-size: 2rem;
+  color: #adb5c0;
+  line-height: 62px;
+}
+.Project-right-pre {
+  flex-grow: 3;
+  width: 100%;
+  font-size: 0.7rem;
+  color: #adb5c0;
+  line-height: 1.5em;
+}
+.Project-right-arrow {
+  margin-top: 10px;
+  flex-grow: 3;
+  height: 2em;
+  font-size: 0.7rem;
+  color: #454a56;
+  line-height: 1em;
+  display: flex;
+  align-items: flex-start;
+}
+.Project-right-arrow span {
+  cursor: pointer;
+}
+.Project-right-arrow img {
+  margin-left: 5px;
+  width: 0.5em;
+  border: 1px solid #adb5c0;
+}
+.Project-right-type {
+  flex-grow: 1;
+  height: 2em;
+  width: 100%;
+  font-size: 0.7rem;
+  color: #adb5c0;
+  line-height: 1em;
+}
+.Project-right-name {
+  flex-grow: 1;
+  height: 2em;
+  width: 100%;
+  font-size: 2rem;
+  color: #454a56;
+  line-height: 45px;
+}
+
+.animated{
+  animation-duration:1s;
+  animation-fill-mode:both
+}
+@keyframes fadeInRight {
+  0% {
+    opacity:0;transform:translateX(20px)
+  }
+  100% {
+    opacity:1;transform:translateX(0)
+  }
+}
+.fadeInRight{
+  animation-name:fadeInRight
+}

@@ -1,0 +1,65 @@
+/* Slogan */
+.Header-form {
+  width: 90vw;
+  margin: 0 auto;
+  height: 10vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.3px;
+  color: #1e2532;
+}
+.Header-form-left {
+  width: 544px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  border-radius: 24px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+}
+
+.Header-form-input {
+  width: 426px;
+  height: 48px;
+}
+.form-input {
+  width: 300px;
+  height: 30px;
+  margin: 7px 30px;
+  font-size: 16px;
+  color: #808080;
+  border: 0px;
+  outline: none;
+}
+.Header-form-button {
+  width: 218px;
+  height: 48px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 48px;
+}
+.Header-form-right {
+  width: 218px;
+  height: 48px;
+  border-radius: 100px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  line-height: 48px;
+  margin-left: 30px;
+}
+
+.Header-form-button.blue, .Header-form-right.blue {
+  background: #1f28cf;
+  color: #fff;
+}
+.Header-form-button.green, .Header-form-right.green {
+  background: #78ce7c;
+}

@@ -1,0 +1,53 @@
+.Why-title {
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  animation-duration: 0.5s;
+}
+.Why-title-top {
+  width: 500px;
+  height: 64px;
+  font-family: PingFangSC;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.28;
+  color: #1e2532;
+  text-align: center;
+}
+.Why-desc {
+  width: 557px;
+  height: 59px;
+  font-family: PingFangSC;
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.5;
+  color: #3a4346;
+  text-align: center;
+}
+.Why-content {
+  width: 100vw;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Why-content img {
+  width: 32vw;
+  height: 23vw;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity:0;transform:translateX(20px)
+  }
+  100% {
+    opacity:1;transform:translateX(0)
+  }
+}
+.fadeInRight{
+  animation-name:fadeInRight
+}

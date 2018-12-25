@@ -1,0 +1,51 @@
+.What {
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation-duration: 0.5s;
+}
+/* 左边 */
+.What-left {
+  width: 500px;
+}
+.What-left-title {
+  width: 500px;
+  height: 64px;
+  font-family: PingFangSC;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.28;
+  color: #1e2532;
+}
+.What-left-desc {
+  width: 500px;
+  height: 48px;
+  font-family: PingFangSC;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3a4346;
+  margin-top: 10px;
+}
+
+/* 右边 */
+.What-right {
+  width: 241px;
+  height: 239px;
+  object-fit: contain;
+  margin-left: 30px;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity:0;transform:translateX(20px)
+  }
+  100% {
+    opacity:1;transform:translateX(0)
+  }
+}
+.fadeInRight{
+  animation-name:fadeInRight
+}

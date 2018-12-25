@@ -1,0 +1,61 @@
+.Advantage {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation-duration: 0.5s;
+}
+/* 左边 */
+.Advantage-item {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Advantage-title {
+  width: 200px;
+  height: 31px;
+  font-family: Ubuntu;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.48;
+  text-align: center;
+  margin-top: 20px;
+  color: #1e2532;
+}
+.Advantage-desc {
+  width: 304px;
+  height: 85px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #3a4346;
+  margin-top: 20px;
+}
+
+/* 右边 */
+.Advantage-img {
+  width: 120px;
+  height: 170px;
+  object-fit: contain;
+}
+.Advantage-img.left {
+  width: 213px;
+  height: 170px;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity:0;transform:translateX(20px)
+  }
+  100% {
+    opacity:1;transform:translateX(0)
+  }
+}
+.fadeInRight{
+  animation-name:fadeInRight
+}
