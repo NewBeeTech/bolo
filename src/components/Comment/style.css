@@ -1,0 +1,72 @@
+.Comment {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+  animation-duration: 0.5s;
+}
+.Comment-title {
+  width: 500px;
+  height: 64px;
+  font-family: PingFangSC;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.28;
+  color: #1e2532;
+}
+
+.Comment-content {
+  width: 1150px;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Comment-content-item {
+  background: #f2f5f7;
+  padding: 20px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Comment-content-item-content {
+  width: 320px;
+  height: 190px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-family: PingFangSC;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.42;
+  text-align: justify;
+  color: #595959;
+}
+.Comment-content-item-user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100px;
+  height: 18px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  color: #a1aeb7;
+}
+.Comment-content-item-user img {
+  width: 24px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity:0;transform:translateX(20px)
+  }
+  100% {
+    opacity:1;transform:translateX(0)
+  }
+}
+.fadeInRight{
+  animation-name:fadeInRight
+}

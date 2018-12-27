@@ -7,6 +7,8 @@ import HeaderImg from '@/components/HeaderImg';
 import Why from '@/components/Why';
 import What from '@/components/What';
 import Advantage from '@/components/Advantage';
+import Cooperative from '@/components/Cooperative';
+import Comment from '@/components/Comment';
 
 class Home extends Component {
   constructor(props) {
@@ -36,6 +38,8 @@ class Home extends Component {
           <What />
           <Advantage />
           <Why />
+          <Cooperative />
+          <Comment />
         </div>
       </div>
     );

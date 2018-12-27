@@ -1,0 +1,40 @@
+.Cooperative {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.Cooperative-title {
+  width: 105px;
+  margin: 0 auto;
+  font-family: PingFangSC;
+  font-size: 21px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3a4346;
+}
+
+.Cooperative-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Cooperative-content img {
+  width: 263px;
+  height: 124px;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity:0;transform:translateX(20px)
+  }
+  100% {
+    opacity:1;transform:translateX(0)
+  }
+}
+.fadeInRight{
+  animation-name:fadeInRight
+}
