@@ -9,6 +9,8 @@ import What from '@/components/What';
 import Advantage from '@/components/Advantage';
 import Cooperative from '@/components/Cooperative';
 import Comment from '@/components/Comment';
+import FooterNav from '@/components/FooterNav';
+import Footer from '@/components/Footer';
 
 class Home extends Component {
   constructor(props) {
@@ -40,6 +42,10 @@ class Home extends Component {
           <Why />
           <Cooperative />
           <Comment />
+        </div>
+        <div className="Home-footer">
+          <FooterNav />
+          <Footer />
         </div>
       </div>
     );

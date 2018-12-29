@@ -1,8 +1,8 @@
 /* Slogan */
 .Header-form {
-  width: 90vw;
+  width: 1140px;
   margin: 0 auto;
-  height: 10vw;
+  height: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;

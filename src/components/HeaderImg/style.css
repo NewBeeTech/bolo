@@ -1,6 +1,11 @@
 /* 头图 */
-.Header-img {
-  width: 900px;
+.HeaderImg {
+  width: 1140px;
   height: 450px;
   margin: 0 auto;
+  text-align: center;
+}
+.HeaderImg img {
+  width: 900px;
+  height: 450px;
 }

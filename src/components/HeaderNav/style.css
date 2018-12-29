@@ -1,4 +1,4 @@
-.Header, .Nav {
+.Header {
   width: 100vw;
 }
 /* switch */
@@ -30,7 +30,7 @@
 }
 /* nav */
 .Header-nav {
-  width: 90vw;
+  width: 1200px;
   margin: 0 auto;
   height: 180px;
   display: flex;
@@ -44,11 +44,14 @@
 .Header-nav-ul li {
   text-align: center;
   list-style: none;
-  padding: 0.2rem 1rem;
+  padding: 0.2em 1em;
   float: left;
-  height: 1rem;
-  font-size: 1rem;
+  height: 1em;
   color: #000;
+  font-family: PingFangSC;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
 }
 .Header-nav-ul li a {
   font-size: 16px;

@@ -1,7 +1,7 @@
 /* Slogan */
 .Header-slogan {
-  width: 90vw;
-  margin: 0 5%;
+  width: 1140px;
+  margin: 0 auto;
   height: 150px;
   display: flex;
   flex-direction: column;

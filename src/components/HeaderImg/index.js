@@ -6,7 +6,8 @@ import headImg from '@/assets/images/head-img.png';
 class Header extends Component {
   render() {
     return (
-      <div className="Header-img" style={{backgroundImage: `url(${headImg})`, backgroundSize: 'cover'}}>
+      <div className="HeaderImg">
+        <img src={headImg} alt="head-img" />
       </div>
     );
   }
