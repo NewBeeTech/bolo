@@ -1,16 +1,86 @@
 /* nav */
+
 .FooterNav-container {
   width: 100vw;
   height: 130px;
   border-top: 1px solid #c2d1d9;
 }
-.Footer-nav {
-  width: 1200px;
-  height: 130px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+@media screen and (max-width: 760px) {
+  .Footer-nav {
+    width: 90vw;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logon-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #424b5a;
+    border: 1px solid #424b5a;
+    font-family: PingFangSC;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Footer-nav {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logon-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #424b5a;
+    border: 1px solid #424b5a;
+    font-family: PingFangSC;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .Footer-nav {
+    width: 100vw;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logon-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #424b5a;
+    border: 1px solid #424b5a;
+    font-family: PingFangSC;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+  }
 }
 
 .Footer-nav-ul {
@@ -32,19 +102,4 @@
 }
 .Footer-nav-ul li a:hover {
   color: #adb5c0;
-}
-
-.logon-button {
-  width: 150px;
-  height: 40px;
-  border-radius: 2px;
-  background-color: #424b5a;
-  border: 1px solid #424b5a;
-  font-family: PingFangSC;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.33;
-  letter-spacing: 0.3px;
-  text-align: center;
-  color: #ffffff;
 }

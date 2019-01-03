@@ -1,51 +1,158 @@
-.Advantage {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 50px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  animation-duration: 0.5s;
-}
-/* 左边 */
-.Advantage-item {
-  width: 360px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.Advantage-title {
-  width: 200px;
-  height: 31px;
-  font-family: Ubuntu;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1.48;
-  text-align: center;
-  margin-top: 20px;
-  color: #1e2532;
-}
-.Advantage-desc {
-  width: 304px;
-  height: 85px;
-  font-family: Ubuntu;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #3a4346;
-  margin-top: 20px;
-}
+@media screen and (max-width: 760px) {
 
-/* 右边 */
-.Advantage-img {
-  width: 120px;
-  height: 170px;
-  object-fit: contain;
+  .Advantage {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.5s;
+  }
+  /* 左边 */
+  .Advantage-item {
+    width: 90vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Advantage-title {
+    width: 80vw;
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.48;
+    text-align: center;
+    margin-top: 20px;
+    color: #1e2532;
+  }
+  .Advantage-desc {
+    width: 80vw;
+    height: 85px;
+    font-family: Ubuntu;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    color: #3a4346;
+    margin-top: 20px;
+  }
+
+  /* 右边 */
+  .Advantage-img {
+    width: 120px;
+    height: 170px;
+    object-fit: contain;
+  }
+  .Advantage-img.left {
+    width: 213px;
+    height: 170px;
+  }
 }
-.Advantage-img.left {
-  width: 213px;
-  height: 170px;
+@media screen and (min-width: 760px) and (max-width: 1140px){
+
+  .Advantage {
+    width: 96vw;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.5s;
+  }
+  /* 左边 */
+  .Advantage-item {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Advantage-title {
+    width: 30vw;
+    height: 3vw;
+    font-family: Ubuntu;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height: 1.48;
+    text-align: center;
+    margin-top: 20px;
+    color: #1e2532;
+  }
+  .Advantage-desc {
+    width: 30vw;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #3a4346;
+    margin-top: 20px;
+  }
+
+  /* 右边 */
+  .Advantage-img {
+    width: 120px;
+    height: 170px;
+    object-fit: contain;
+  }
+  .Advantage-img.left {
+    width: 213px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 1140px) {
+
+  .Advantage {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.5s;
+  }
+  /* 左边 */
+  .Advantage-item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Advantage-title {
+    width: 200px;
+    height: 31px;
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.48;
+    text-align: center;
+    margin-top: 20px;
+    color: #1e2532;
+  }
+  .Advantage-desc {
+    width: 304px;
+    height: 85px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #3a4346;
+    margin-top: 20px;
+  }
+
+  /* 右边 */
+  .Advantage-img {
+    width: 120px;
+    height: 170px;
+    object-fit: contain;
+  }
+  .Advantage-img.left {
+    width: 213px;
+    height: 170px;
+  }
 }
 
 @keyframes fadeInRight {

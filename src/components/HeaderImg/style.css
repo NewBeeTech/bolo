@@ -1,11 +1,28 @@
 /* 头图 */
-.HeaderImg {
-  width: 1140px;
-  height: 450px;
-  margin: 0 auto;
-  text-align: center;
+
+@media screen and (max-width: 1024px) {
+  .HeaderImg {
+    width: 100vw;
+    height: 50vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .HeaderImg img {
+    width: 90vw;
+    height: 50vw;
+  }
+
 }
-.HeaderImg img {
-  width: 900px;
-  height: 450px;
+
+@media screen and (min-width: 1024px) {
+  .HeaderImg {
+    width: 1140px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .HeaderImg img {
+    width: 900px;
+    height: 450px;
+  }
 }

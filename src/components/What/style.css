@@ -1,46 +1,139 @@
-.What-container {
-  width: 1200px;
-  margin: 0 auto;
+@media screen and (max-width: 760px) {
+  .What-container {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .What {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.5s;
+  }
+  /* 上 */
+  .What-left {
+    width: 90vw;
+  }
+  .What-left-title {
+    width: 90vw;
+    height: 10vw;
+    font-family: PingFangSC;
+    font-size: 8vw;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.28;
+    color: #1e2532;
+  }
+  .What-left-desc {
+    width: 90vw;
+    font-family: PingFangSC;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #3a4346;
+    margin-top: 10px;
+  }
+  /* 下 */
+  .What-right {
+    width: 241px;
+    height: 239px;
+    object-fit: contain;
+    margin-top: 30px;
+  }
 }
-.What {
-  width: 900px;
-  margin: 0 auto;
-  padding: 50px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  animation-duration: 0.5s;
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .What-container {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .What {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.5s;
+  }
+  /* 左边 */
+  .What-left {
+    width: 55vw;
+  }
+  .What-left-title {
+    width: 55vw;
+    height: 64px;
+    font-family: PingFangSC;
+    font-size: 5vw;
+    font-weight: 600;
+    line-height: 1.28;
+    color: #1e2532;
+  }
+  .What-left-desc {
+    width: 55vw;
+    font-family: PingFangSC;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3a4346;
+    margin-top: 10px;
+  }
+  /* 右边 */
+  .What-right {
+    width: 241px;
+    height: 239px;
+    object-fit: contain;
+    margin-left: 30px;
+  }
 }
-/* 左边 */
-.What-left {
-  width: 500px;
-}
-.What-left-title {
-  width: 500px;
-  height: 64px;
-  font-family: PingFangSC;
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 1.28;
-  color: #1e2532;
-}
-.What-left-desc {
-  width: 500px;
-  height: 48px;
-  font-family: PingFangSC;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #3a4346;
-  margin-top: 10px;
+@media screen and (min-width: 1200px) {
+  .What-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .What {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.5s;
+  }
+
+  /* 左边 */
+  .What-left {
+    width: 500px;
+  }
+  .What-left-title {
+    width: 500px;
+    height: 64px;
+    font-family: PingFangSC;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.28;
+    color: #1e2532;
+  }
+  .What-left-desc {
+    width: 500px;
+    height: 48px;
+    font-family: PingFangSC;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3a4346;
+    margin-top: 10px;
+  }
+  /* 右边 */
+  .What-right {
+    width: 241px;
+    height: 239px;
+    object-fit: contain;
+    margin-left: 30px;
+  }
 }
 
-/* 右边 */
-.What-right {
-  width: 241px;
-  height: 239px;
-  object-fit: contain;
-  margin-left: 30px;
-}
+
+
 
 @keyframes fadeInRight {
   0% {

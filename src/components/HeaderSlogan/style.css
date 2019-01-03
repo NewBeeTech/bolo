@@ -1,29 +1,60 @@
 /* Slogan */
-.Header-slogan {
-  width: 1140px;
-  margin: 0 auto;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 1024px) {
+  .Header-slogan {
+    width: 100vw;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Header-slogan-title {
+    width: 80vw;
+    height: 2em;
+    font-family: PingFangSC;
+    font-size: 6vw;
+    font-weight: 600;
+    text-align: center;
+    color: #1e2532;
+  }
+  .Header-img-desc {
+    width: 70vw;
+    font-family: PingFangSC;
+    font-size: 14px;
+    text-align: center;
+    color: #3a4346;
+  }
 }
 
-.Header-slogan-title {
-  width: 792px;
-  height: 92px;
-  font-family: PingFangSC;
-  font-size: 66px;
-  font-weight: 600;
-  text-align: center;
-  color: #1e2532;
-}
-.Header-img-desc {
-  margin-top: 40px;
-  width: 765px;
-  height: 21px;
-  font-family: PingFangSC;
-  font-size: 15px;
-  text-align: center;
-  color: #3a4346;
+@media screen and (min-width: 1024px) {
+  .Header-slogan {
+    width: 1024px;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Header-slogan-title {
+    width: 792px;
+    height: 92px;
+    font-family: PingFangSC;
+    font-size: 66px;
+    font-weight: 600;
+    text-align: center;
+    color: #1e2532;
+  }
+  .Header-img-desc {
+    margin-top: 40px;
+    width: 765px;
+    height: 21px;
+    font-family: PingFangSC;
+    font-size: 15px;
+    text-align: center;
+    color: #3a4346;
+  }
 }
